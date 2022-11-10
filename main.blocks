@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="9|qP]8N/p8TQ^;~^aG$(" x="0" y="0"></block><block type="device_forever" id="JG;VA.bDSZDI.(RX~.4{" x="205" y="0"></block><block type="device_button_event" id="$34)[.p/UWZHxc8~)Usa" x="778" y="-20"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_play_note" id="K8^7//}p+4+I:w@k.|gx"><value name="note"><shadow type="device_note" id="W`Ys-i;U,71u{vpr^c?a"><field name="name">294</field></shadow></value><value name="duration"><shadow type="device_beat" id="EZGBSS9a-3r0}_FZ2CxV"><field name="fraction">BeatFraction.Quarter</field></shadow></value><next><block type="device_show_leds" id=".eB-UkT.RI,`:_+Gy0@^"><field name="LEDS">`
+        . # # . . 
+        . # . # . 
+        . # # . . 
+        . # . # . 
+        . # # . .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="Z7Tf^fh+pFCzDr8?pDy(" x="416" y="13"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_number" id="8hu:gic5sr.o_42@pqPO"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="V73K,aGM,UjwJ%9-;g4("></block></value><next><block type="playMelody" id="LEeQ*^dQ]jN1wnOM)?52"><value name="melody"><shadow type="melody_editor" id="b,TQwLI{5p|[2H[*KgJQ"><field name="melody">"C5 A B G A F G E "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="*R;1TLqwk^s}0/rX+b||"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></block></next></block></statement></block><block type="input_on_sound" id="!McYC5G+{-vp*!0xdu90" x="17" y="205"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="device_show_leds" id="upmO=_hV=I)JG8J|@*sq"><field name="LEDS">`
+        . . . . . 
+        # . . . # 
+        . . # . . 
+        . # . # . 
+        . . # . .
+        `</field></block></statement></block><block type="input_logo_event" id="_hSJfK-D1$-Dzx@@I|UO" x="334" y="434"><field name="action">TouchButtonEvent.Touched</field><statement name="HANDLER"><block type="device_play_note" id="MUvJ;z;IbEP^+|cQ1oGT"><value name="note"><shadow type="device_note" id="aV^.do--t|v:3Wkf,E?z"><field name="name">294</field></shadow></value><value name="duration"><shadow type="device_beat" id="9k!=v5*ler[bhRN5kfqb"><field name="fraction">BeatFraction.Quarter</field></shadow></value></block></statement></block></xml>
